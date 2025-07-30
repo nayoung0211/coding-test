@@ -1,17 +1,17 @@
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+
+import java.util.Scanner;
+
 
 public class ex2 {
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int N = Integer.parseInt(st.nextToken());
-        int L = Integer.parseInt(st.nextToken());  // 당신의 초기 레벨
+        int N = sc.nextInt();
+        int L = sc.nextInt();  // 당신의 초기 레벨
 
         for (int i = 0; i < N; i++) {
-            int enemy = Integer.parseInt(br.readLine());
+            int enemy = sc.nextInt();
 
             if (L > enemy) {
                 // 승리
