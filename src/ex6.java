@@ -13,7 +13,7 @@ public class ex6 {
             int d1 = sc.nextInt();
             x += d*d1;
         }
-        System.out.println(total-x);
 
+        System.out.println(total-x);
     }
 }
