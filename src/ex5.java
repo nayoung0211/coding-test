@@ -15,7 +15,5 @@ public class ex5 {
         }
         System.out.println(sum);
 
-
-
     }
 }
