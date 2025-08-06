@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class c117 {
+public class C117 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -23,8 +23,6 @@ public class c117 {
             }
         }
         System.out.println(close);
-
-
     }
 
 }
